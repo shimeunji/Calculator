@@ -21,7 +21,7 @@
     <EditText
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:id="@+id/eidit_2"
+        android:id="@+id/edit_2"
         android:layout_below="@+id/edit_1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -56,7 +56,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/str_plus"
-        android:id="@+id/but_1"
+        android:id="@+id/but1"
         android:layout_above="@+id/but2"
         android:layout_centerHorizontal="true" />
 
@@ -64,12 +64,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/str_result"
-        android:id="@+id/textView"
+        android:id="@+id/text_result"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="36dp"
         android:textSize="30sp"
-        android:textColor="#ff7a7a" />
+        android:textColor="#ff7a7a"/>
 
 </RelativeLayout>
